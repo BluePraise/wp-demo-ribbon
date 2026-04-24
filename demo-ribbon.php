@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Demo Ribbon
  * Description: Adds a configurable demo ribbon that can render below the header or as a fixed banner.
- * Version: 0.1.0
+ * Version: 0.1.1
  * Author: Magalie Chetrit
  * Requires at least: 6.0
  * Requires PHP: 7.4
@@ -267,6 +267,10 @@ final class Demo_Ribbon {
     left: 0;
     right: 0;
     width: 100%;
+    text-align: center;
+    padding: 8px;
+    background-color: yellow;
+    z-index: 99999;
 }
 
 #demo-ribbon.demo-ribbon--fixed-top {
